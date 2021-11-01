@@ -21,6 +21,7 @@ public class AppController {
     }
 
     @GetMapping("/all")
-    public String AllEmployeeName(){
+    public String AllEmployeeName() {
         return "Employees";
+    }
 }
