@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
 
     // adding a comment here.
+    // this endpoint returns hello.
     @GetMapping("/employee")
     public String getEmployee(){
         return "Hello";
