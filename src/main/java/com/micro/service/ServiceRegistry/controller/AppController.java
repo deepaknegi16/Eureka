@@ -8,8 +8,6 @@ public class AppController {
 
     // adding a comment here.
     // this endpoint returns hello.
-    // this is change from local branch
-    // this is change from master
     @GetMapping("/employee")
     public String getEmployee(){
         return "Hello";
