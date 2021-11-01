@@ -8,8 +8,16 @@ public class AppController {
 
     // adding a comment here.
     // this endpoint returns hello.
+    
+    
+    
+    
     @GetMapping("/employee")
     public String getEmployee(){
         return "Hello";
     }
+    
+    @GetMapping("/all)
+    public String AllEmployeeName(){
+        return "Employees";
 }
