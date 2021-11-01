@@ -24,4 +24,9 @@ public class AppController {
     public String AllEmployeeName() {
         return "Employees";
     }
+
+    @GetMapping("/helllo")
+    public String JustHello() {
+        return "just hello";
+    }
 }
