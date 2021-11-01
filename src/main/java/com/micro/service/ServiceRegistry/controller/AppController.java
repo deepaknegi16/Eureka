@@ -15,14 +15,12 @@ public class AppController {
 
 
     // if i add comment here
-
     @GetMapping("/employee")
     public String getEmployee(){
         return "Hello";
     }
-    
+
     @GetMapping("/all")
-    public String AllEmployeeName() {
+    public String AllEmployeeName(){
         return "Employees";
-    }
 }
