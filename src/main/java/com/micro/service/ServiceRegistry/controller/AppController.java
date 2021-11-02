@@ -26,7 +26,7 @@ public class AppController {
     }
 // adding the comment on hello
     @GetMapping("/helllo")
-    public String JustHello() {
+    public String JustHelloP() {
         return "just hello";
     }
 }
